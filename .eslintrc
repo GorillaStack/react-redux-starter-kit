@@ -8,6 +8,7 @@
   "rules": {
     "arrow-parens": ["error", "as-needed"],
     "no-await-in-loop": "off",
+    "camelcase": ["error", { "properties": "always" }],
     "no-underscore-dangle": ["error", { "allow": ["_this", "_id"] }],
     "object-curly-spacing" : [2, "always"],
     "global-require": "off",
