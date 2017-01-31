@@ -17,4 +17,3 @@ script:
 
 after_success:
   - npm run codecov
-0
