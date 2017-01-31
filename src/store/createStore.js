@@ -32,8 +32,8 @@ export default (initialState = {}) => {
     initialState,
     composeEnhancers(
       applyMiddleware(...middleware),
-      ...enhancers
-    )
+      ...enhancers,
+    ),
   );
   store.asyncReducers = {};
 
@@ -48,4 +48,4 @@ export default (initialState = {}) => {
   }
 
   return store;
-}
+};

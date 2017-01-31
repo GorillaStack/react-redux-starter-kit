@@ -3,6 +3,17 @@
   "env"     : {
     "mocha" : true
   },
+  "rules": {
+    "no-bitwise": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-default": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-filename-extension": "off"
+  },
   "globals" : {
     "expect" : false,
     "should" : false,

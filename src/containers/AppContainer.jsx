@@ -11,12 +11,12 @@ class AppContainer extends Component {
     };
   }
 
-  shouldComponentUpdate () {
-    return false
+  shouldComponentUpdate() {
+    return false;
   }
 
-  render () {
-    const { routes, store } = this.props
+  render() {
+    const { routes, store } = this.props;
 
     return (
       <Provider store={store}>
@@ -24,7 +24,7 @@ class AppContainer extends Component {
           <Router history={browserHistory} children={routes} />
         </div>
       </Provider>
-    )
+    );
   }
 }
 
